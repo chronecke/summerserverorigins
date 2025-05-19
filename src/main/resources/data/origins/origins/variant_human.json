@@ -1,0 +1,12 @@
+{
+	"powers": [
+		"origins:tough",
+		"origins:moderately_armored",
+		"origins:arms_spaghetti"
+	],
+	"icon": {
+		"id": "minecraft:cobweb"
+	},
+	"order": 1,
+	"impact": 1
+}

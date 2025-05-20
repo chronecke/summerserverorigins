@@ -1,4 +1,6 @@
 {
+  "name": "Tough",
+	"description": "You're built tougher than most",
   "type": "origins:attribute",
   "modifier": {
     "name": "Tough",

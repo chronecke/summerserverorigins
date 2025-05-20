@@ -1,4 +1,6 @@
 {
+	"name": "Moderately Armored",
+	"description": "You come pre-padded",
 	"type": "origins:attribute",
 	"modifier": {
 		"id": "*:*",

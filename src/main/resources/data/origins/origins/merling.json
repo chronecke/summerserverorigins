@@ -7,10 +7,11 @@
 		"origins:like_water",
 		"origins:aquatic",
 		"origins:conduit_power_on_land",
-		"origins:air_from_potions"
+		"origins:air_from_potions",
+		"origins:pescatarian"
 	],
 	"icon": {
-		"item": "minecraft:cod"
+		"id": "minecraft:cod"
 	},
 	"order": 0,
 	"impact": 3

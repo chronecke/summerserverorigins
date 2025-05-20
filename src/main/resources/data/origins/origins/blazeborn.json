@@ -1,16 +1,16 @@
 {
 	"powers": [
 		"origins:fire_immunity",
-		"origins:nether_spawn",
 		"origins:burning_wrath",
 		"origins:hotblooded",
 		"origins:water_vulnerability",
 		"origins:flame_particles",
 		"origins:damage_from_snowballs",
-		"origins:damage_from_potions"
+		"origins:damage_from_potions",
+		"origins:burning_hands"
 	],
 	"icon": {
-		"item": "minecraft:blaze_powder"
+		"id": "minecraft:blaze_powder"
 	},
 	"order": 1,
 	"impact": 3

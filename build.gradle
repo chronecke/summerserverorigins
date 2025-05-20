@@ -1,10 +1,12 @@
 plugins {
-	id 'fabric-loom' version '1.6-SNAPSHOT'
+	id 'fabric-loom' version '1.7-SNAPSHOT'
 	id 'maven-publish'
 }
 
 version = project.mod_version
 group = project.maven_group
+
+def ENV = System.getenv()
 
 base {
 	archivesName = project.archives_base_name
@@ -34,6 +36,10 @@ repositories {
 	maven {
 		name = 'Ladysnake Mods'
 		url = 'https://maven.ladysnake.org/releases'
+	}
+	maven {
+		name = 'Ladysnake Mods (snapshots)'
+		url = 'https://maven.ladysnake.org/snapshots'
 	}
 	maven {
 		url = 'https://maven.cafeteria.dev'
@@ -71,24 +77,15 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modApi "com.github.apace100:apoli:${project.apoli_version}"
-	include "com.github.apace100:apoli:${project.apoli_version}"
-
-	modApi("dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cca_version}") {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
-	modApi("dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cca_version}") {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
+	modApi "io.github.apace100:apoli:${project.apoli_version}"
+	include "io.github.apace100:apoli:${project.apoli_version}"
 
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.clothconfig_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 
 	modCompileOnlyApi "carpet:fabric-carpet:${project.carpet_version}"
-
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
-	include modApi("com.jamieswhiteshirt:reach-entity-attributes:${project.reach_version}")
 
 }
 
@@ -105,7 +102,7 @@ processResources {
 // see http://yodaconditions.net/blog/fix-for-java-file-encoding-problems-with-gradle.html
 tasks.withType(JavaCompile).configureEach {
 	it.options.encoding = "UTF-8"
-	it.options.release = 17
+	it.options.release = 21
 }
 
 java {
@@ -114,8 +111,8 @@ java {
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
 
-	sourceCompatibility = JavaVersion.VERSION_17
-	targetCompatibility = JavaVersion.VERSION_17
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
 }
 
 jar {
@@ -136,5 +133,14 @@ publishing {
 	repositories {
 		// uncomment to publish to the local maven
 		mavenLocal()
+		if (ENV.MAVEN_URL && ENV.MAVEN_USERNAME && ENV.MAVEN_PASSWORD) {
+			maven {
+				url = ENV.MAVEN_URL
+				credentials {
+					username = ENV.MAVEN_USERNAME
+					password = ENV.MAVEN_PASSWORD
+				}
+			}
+		}
 	}
 }

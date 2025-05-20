@@ -1,17 +1,18 @@
 {
+	"name": "Stubby Arms",
+	"description": "You have trouble reaching due to your stubby arms",
 	"type": "origins:attribute",
 	"modifiers": [
 		{
-			"id": "*:*",
-			"attribute": "minecraft:player.block_interaction_range",
-			"amount": -.5,
-			"operation": "add_value"
+			"name": "Extra Reach block reach",
+			"attribute": "reach-entity-attributes:reach",
+			"value": -0.5,
+			"operation": "addition"
 		},
 		{
-			"id": "*:*",
-			"attribute": "minecraft:player.entity_interaction_range",
-			"amount": -.5,
-			"operation": "add_value"
-		}
-	]
+			"name": "Extra Reach entity reach",
+			"attribute": "reach-entity-attributes:attack_range",
+			"value": -0.5,
+			"operation": "addition"
+		},
 }

@@ -1,12 +1,9 @@
 {
-	"type": "origins:invulnerability",
-	"damage_condition": {
-		"type": "origins:in_tag",
-		"tag": "minecraft:wither"
-	},
-	"type": "origins:invulnerability",
-	"damage_condition": {
-		"type": "origins:in_tag",
-		"tag": "minecraft:magic"
-	}
+	"name": "Stout Body",
+	"description": "Your body is immune to all poisons and withering as a dwarf.",
+	"type": "origins:effect_immunity",
+	"effects": [
+		"minecraft:poison",
+		"minecraft:wither"
+	]
 }

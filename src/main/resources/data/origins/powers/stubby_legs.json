@@ -1,11 +1,11 @@
 {
+	"name": "Stubby Legs",
+	"description": "You can fit in tighter spaces due to your stubby legs",
 	"type": "origins:attribute",
-	"modifiers": [
-		{
-			"id": "*:*",
-			"attribute": "minecraft:player.scale",
-			"amount": -.25,
-			"operation": "add_value"
-		}
-	]
+	"modifier": {
+		"id": "*:*",
+		"attribute": "minecraft:generic.scale",
+		"amount": -0.35,
+		"operation": "add_value"
+	}
 }

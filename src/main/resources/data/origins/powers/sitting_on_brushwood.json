@@ -1,7 +1,7 @@
 {
   "type": "origins:action_on_hit",
   "name": "Arms on Fire",
-  "description": "Your flames spread to all you hit. They also spread to you",
+  "description": "Your flames spread to all you hit. They also spread to you.",
   "bientity_action": {
     "type": "origins:actor_action",
     "action": {

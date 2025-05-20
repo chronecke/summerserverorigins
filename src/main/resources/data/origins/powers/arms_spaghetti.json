@@ -1,4 +1,6 @@
 {
+	"name": "Weak arms",
+	"description": "You have weaker arm recovery than others.",
 	"type": "origins:attribute",
 	"modifier": {
 		"id": "*:*",

@@ -1,9 +1,0 @@
-{
-	"type": "origins:attribute",
-	"modifier": {
-		"id": "*:*",
-		"attribute": "minecraft:generic.attack_speed",
-		"amount": -0.5,
-		"operation": "add_value"
-	}
-}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:insanity_potion",
+    "origins:water_vulnerability",
+    "origins:hotblooded"
+  ],
+    "icon": {
+    "id": "minecraft:potion"
+  },
+  "order": 1,
+  "impact": 3
+}

@@ -1,0 +1,19 @@
+{
+"type": "origins:modify_food",
+"item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag":"minecraft:fishes"
+        }
+},
+"entity_action": {
+    "type": "apply_effect",
+    "effect": {
+        "id": "minecraft:poison",
+        "duration": 2000,
+        "amplifier": 2
+        }
+    },
+"prevent_effects":false
+
+}

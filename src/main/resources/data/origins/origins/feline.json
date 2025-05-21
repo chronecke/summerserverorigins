@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:fall_immunity",
+		"origins:sprint_jump",
+		"origins:velvet_paws",
+		"origins:nine_lives",
+		"origins:scare_creepers",
+		"origins:cat_vision",
+		"origins:extra_knockback",
+		"origins:carnivore",
+		"origins:darkness_immunity"
+	],
+	"icon": {
+		"id": "minecraft:orange_wool"
+	},
+	"order": 0,
+	"impact": 2
+}

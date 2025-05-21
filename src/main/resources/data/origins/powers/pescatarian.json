@@ -24,7 +24,7 @@
                 "type":"origins:ingredient",
                 "ingredient":[
                     {
-                    "tag":"minecraft:dried_kelp"
+                    "item":"minecraft:dried_kelp"
                     }
             ],
             "inverted":true

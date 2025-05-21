@@ -20,6 +20,13 @@
 				},
 				"inverted":true
 			},
+			{
+				"type":"origins:ingredient",
+				"ingredient":{
+					"tag":"origins:stews"
+				},
+				"inverted":true
+			},
             {
                 "type":"origins:ingredient",
                 "ingredient":[

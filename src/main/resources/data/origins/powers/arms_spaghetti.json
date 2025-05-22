@@ -1,5 +1,7 @@
 {
 	"type": "origins:attribute",
+	"name": "Weak Arms",
+    "description": "You lack arm strength, slowing your attack speed.",
 	"modifier": {
 		"id": "*:*",
 		"attribute": "minecraft:generic.attack_speed",

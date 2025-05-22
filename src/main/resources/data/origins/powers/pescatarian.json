@@ -1,6 +1,7 @@
 {
 	"type":"origins:prevent_item_use",
 	"name":"Pescatarian",
+	"description": "As a denizen of the sea, there are fewer foods you can eat.",
 	"item_condition":{
 		"type":"origins:and",
 		"conditions":[

@@ -1,4 +1,6 @@
 {
+	"name":"Stout Body",
+	"description": "Your body naturally resists some magic and poison effects.",
 	"type": "origins:multiple",
 	"withering":{
 		"type": "origins:invulnerability",

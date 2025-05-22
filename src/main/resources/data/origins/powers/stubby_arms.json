@@ -1,5 +1,7 @@
 {
 	"type": "origins:attribute",
+	"name":"Stubby Arms",
+	"description": "Your arms are a bit shorter than most humans.",
 	"modifiers": [
 		{
 			"id": "*:*",

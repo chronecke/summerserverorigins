@@ -1,5 +1,7 @@
 {
   "type": "origins:attribute",
+  "name": "Tough",
+  "description": "You're born a bit hardier than the rest.",
   "modifier": {
     "name": "Tough",
     "attribute": "minecraft:generic.max_health",

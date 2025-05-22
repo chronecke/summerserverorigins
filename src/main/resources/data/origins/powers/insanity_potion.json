@@ -1,5 +1,7 @@
 {
   "type": "origins:active_self",
+  "name": "Witch's Brew",
+  "description": "You've created a special brew of potions using your own recipe.",
   "entity_action": {
     "type": "origins:and",
     "actions": [

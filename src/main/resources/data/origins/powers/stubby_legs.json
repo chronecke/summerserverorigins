@@ -1,5 +1,7 @@
 {
     "type": "origins:action_on_callback",
+	"name":"Stubby Legs",
+	"description": "Your legs are shorter than most humans.",
     "entity_action_gained": {
 		"type":"origins:and",
 		"actions":[

@@ -9,6 +9,7 @@
     "item": "minecraft:dragon_breath"
   },
   "name":"Witch",
+  "description": "Descended from witches of old, you have an closer connection with potions than others.",
   "order": 1,
   "impact": 3
 }

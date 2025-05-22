@@ -1,4 +1,6 @@
 {
+	"name": "Moderately Armored",
+    "description": "You've inherited a gambeson from your family to wear underneath your armor.",
 	"type": "origins:attribute",
 	"modifier": {
 		"id": "*:*",

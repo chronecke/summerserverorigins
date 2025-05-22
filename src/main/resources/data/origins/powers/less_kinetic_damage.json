@@ -1,4 +1,6 @@
 {
+  "name":"Less Kinetic Damage",
+  "description": "You are especially resilent against kinetic damage",
   "type": "origins:modify_damage_taken",
   "modifier": {
     "name": "Less kinetic damage taken",

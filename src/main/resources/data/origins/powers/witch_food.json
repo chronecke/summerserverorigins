@@ -1,6 +1,7 @@
 {
 	"type":"origins:prevent_item_use",
 	"name":"Witches Diet",
+    "description": "As a witch, you have a very limited diet.",
 	"item_condition":{
 		"type":"origins:and",
 		"conditions":[

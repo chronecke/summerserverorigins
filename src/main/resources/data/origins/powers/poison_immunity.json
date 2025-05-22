@@ -1,4 +1,5 @@
 {
     "type": "origins:effect_immunity",
-    "effects": "minecraft:poison"
+    "effects": "minecraft:poison",
+    "hidden": true
 }

@@ -1,4 +1,6 @@
 {
+"name":"Fish Food",
+"description": "Eating fish is especially restorative for you.",
 "type": "origins:modify_food",
 "item_condition": {
     "type": "origins:ingredient",

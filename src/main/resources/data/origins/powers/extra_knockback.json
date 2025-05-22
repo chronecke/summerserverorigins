@@ -1,5 +1,7 @@
 {
 	"type": "origins:attribute",
+	"name":"Extra Knockback",
+	"description": "Due to being lighter than most, you take extra knockback.",
 	"modifier": {
 		"id": "*:*",
 		"attribute": "minecraft:generic.knockback_resistance",

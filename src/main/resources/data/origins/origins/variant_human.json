@@ -5,9 +5,10 @@
 		"origins:arms_spaghetti"
 	],
 	"icon": {
-		"item": "minecraft:cobweb"
+		"item": "minecraft:stone_axe"
 	},
     "name":"Variant Human",
+	"description":"You were born a regular human, but with some slight variations.",
 	"order": 1,
 	"impact": 1
 }

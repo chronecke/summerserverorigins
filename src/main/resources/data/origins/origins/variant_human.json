@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"origins:tough",
+		"origins:moderately_armored",
+		"origins:arms_spaghetti"
+	],
+	"icon": {
+		"item": "minecraft:cobweb"
+	},
+    "name":"Variant Human",
+	"order": 1,
+	"impact": 1
+}

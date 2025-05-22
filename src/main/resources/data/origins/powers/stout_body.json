@@ -1,0 +1,17 @@
+{
+	"type": "origins:multiple",
+	"withering":{
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:in_tag",
+			"tag": "minecraft:wither"
+		}
+	},
+	"magicskin":{
+		"type": "origins:invulnerability",
+		"damage_condition": {
+			"type": "origins:in_tag",
+			"tag": "minecraft:magic"
+		}
+	}
+}

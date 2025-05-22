@@ -1,0 +1,13 @@
+{
+	"powers": [
+		"origins:stubby_arms",
+		"origins:stubby_legs",
+		"origins:stout_body"
+	],
+	"icon": {
+		"item": "minecraft:iron_pickaxe"
+	},
+    "name":"Dwarf",
+	"order": 1,
+	"impact": 1
+}

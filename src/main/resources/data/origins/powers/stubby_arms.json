@@ -1,0 +1,17 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+		{
+			"id": "*:*",
+			"attribute": "minecraft:generic.block_interaction_range",
+			"amount": -0.5,
+			"operation": "addition"
+		},
+		{
+			"id": "*:*",
+			"attribute": "minecraft:generic.entity_interaction_range",
+			"amount": -0.5,
+			"operation": "addition"
+		}
+	]
+}

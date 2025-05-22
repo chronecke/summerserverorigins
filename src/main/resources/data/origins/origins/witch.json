@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:insanity_potion",
+    "origins:water_vulnerability",
+    "origins:hotblooded"
+  ],
+    "icon": {
+    "item": "minecraft:dragon_breath"
+  },
+  "name":"Witch",
+  "order": 1,
+  "impact": 3
+}

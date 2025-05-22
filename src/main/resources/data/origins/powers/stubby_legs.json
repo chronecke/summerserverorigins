@@ -1,0 +1,11 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [
+		{
+			"id": "*:*",
+			"attribute": "minecraft:player.scale",
+			"value": -0.25,
+			"operation": "addition"
+		}
+	]
+}

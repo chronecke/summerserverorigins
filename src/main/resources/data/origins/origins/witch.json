@@ -2,7 +2,8 @@
   "powers": [
     "origins:insanity_potion",
     "origins:water_vulnerability",
-    "origins:hotblooded"
+    "origins:hotblooded",
+    "origins:witch_food"
   ],
     "icon": {
     "item": "minecraft:dragon_breath"

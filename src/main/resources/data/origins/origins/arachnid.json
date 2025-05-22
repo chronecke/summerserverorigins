@@ -3,8 +3,9 @@
 		"origins:climbing",
 		"origins:master_of_webs",
 		"origins:carnivore",
-		"origins:fragile",
-		"origins:arthropod"
+		"origins:spider_lives",
+		"origins:arthropod",
+		"origins:poison_immunity"
 	],
 	"icon": {
 		"item": "minecraft:cobweb"

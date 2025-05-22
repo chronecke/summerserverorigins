@@ -1,0 +1,19 @@
+{
+"type": "origins:modify_food",
+"item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag":"minecraft:fishes"
+        }
+},
+"entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+        "effect": "minecraft:regeneration",
+        "duration": 40,
+        "amplifier": 2
+        }
+    },
+"prevent_effects":false
+
+}

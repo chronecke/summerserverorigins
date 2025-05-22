@@ -1,10 +1,11 @@
 {
 	"powers": [
 		"origins:fire_immunity",
-		"origins:nether_spawn",
 		"origins:burning_wrath",
 		"origins:hotblooded",
 		"origins:water_vulnerability",
+		"origins:rending_flames",
+		"origins:sitting_on_brushwood",
 		"origins:flame_particles",
 		"origins:damage_from_snowballs",
 		"origins:damage_from_potions"

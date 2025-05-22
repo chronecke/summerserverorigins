@@ -3,14 +3,14 @@
 	"modifiers": [
 		{
 			"id": "*:*",
-			"attribute": "minecraft:generic.block_interaction_range",
-			"amount": -0.5,
+			"attribute": "reach-entity-attributes:reach",
+			"value": -0.5,
 			"operation": "addition"
 		},
 		{
 			"id": "*:*",
-			"attribute": "minecraft:generic.entity_interaction_range",
-			"amount": -0.5,
+			"attribute": "reach-entity-attributes:attack_range",
+			"value": -0.5,
 			"operation": "addition"
 		}
 	]

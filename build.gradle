@@ -65,6 +65,10 @@ dependencies {
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
 	include modApi("com.jamieswhiteshirt:reach-entity-attributes:${project.reach_version}")
+	
+	modApi("com.github.Virtuoel:Pehkui:${pehkui_version}", {
+	exclude group: "net.fabricmc.fabric-api"
+	})
 }
 
 processResources {
@@ -113,5 +117,8 @@ publishing {
 	repositories {
 		// uncomment to publish to the local maven
 		mavenLocal()
+		maven {
+			url = "https://jitpack.io"
+		}	
 	}
 }

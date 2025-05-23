@@ -1,11 +1,9 @@
 {
-	"type": "origins:attribute",
+    "type": "origins:action_when_hit",
 	"name":"Extra Knockback",
 	"description": "Due to being lighter than most, you take extra knockback.",
-	"modifier": {
-		"id": "*:*",
-		"attribute": "minecraft:generic.knockback_resistance",
-		"value": -0.5,
-		"operation": "addition"
-	}
+    "bientity_action": {
+        "type": "origins:add_velocity",
+        "z": 3
+    }
 }

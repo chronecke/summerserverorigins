@@ -4,6 +4,6 @@
 	"description": "Due to being lighter than most, you take extra knockback.",
     "bientity_action": {
         "type": "origins:add_velocity",
-        "z": 3
+        "z": 1
     }
 }
